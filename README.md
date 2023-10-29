@@ -3,7 +3,7 @@
 Welcome to the chat app repository!👋  This project is a dynamic react application built using Vite as the build tool. In this project i have used react for frontend , tailwind for styling and appwrite for backend.
 using appwrite it is very easy to maintain the databases and auth, appwrite provides build in auth to manage all the users and groups.
 
-Demo : [Chatapp](https://playful-truffle-4d1948.netlify.app/login)
+Demo : [Chatapp](https://chatapp-5ufopr1y5-nitinpr1.vercel.app/login)
 
 Features 🚀:
 
