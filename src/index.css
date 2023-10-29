@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.letscroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.letscroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 20px white;
+  border-radius: 5px;
+}
+
+.letscroll::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 5px;
+}
