@@ -39,6 +39,7 @@ export const Authprovider = ({ children }) => {
       setUser(accountDetails);
       navigate("/");
     } catch (error) {
+      alert("Please enter valid credentials");
       console.log(error);
     }
   };
