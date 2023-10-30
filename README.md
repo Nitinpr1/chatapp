@@ -3,7 +3,7 @@
 Welcome to the chat app repository!👋  This project is a dynamic react application built using Vite as the build tool. In this project i have used react for frontend , tailwind for styling and appwrite for backend.
 using appwrite it is very easy to maintain the databases and auth, appwrite provides build in auth to manage all the users and groups.
 
-Demo : [Chatapp](https://chatapp-5ufopr1y5-nitinpr1.vercel.app)
+Demo : [Chatapp](https://chatapp-rosy-tau.vercel.app/)
 
 Features 🚀:
 
