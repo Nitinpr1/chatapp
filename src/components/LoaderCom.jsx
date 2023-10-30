@@ -8,7 +8,6 @@ const LoaderCom = () => {
         color="blue"
         height={100}
         width={100}
-        timeout={5000}
         fontweight="bold"
       />
     </div>

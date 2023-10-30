@@ -70,8 +70,6 @@ const Room = () => {
     );
     console.log("created", response);
 
-    //setmessages((prevState) => [...messages, response]);
-
     setMessageBody("");
   };
 
@@ -86,10 +84,6 @@ const Room = () => {
   };
   const DeleteMessage = async (message_id) => {
     databases.deleteDocument(DATABASE_ID, COLLATION_ID_MESSAGES, message_id);
-
-    // setmessages((prevState) =>
-    //   messages.filter((message) => message.$id !== message_id)
-    // );
   };
 
   return (
