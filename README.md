@@ -17,7 +17,7 @@ Installation
 
 - 👉 Clone the repository
 - 👉 Create account on appwrite and create your database and then edit the appwriteConfig.js file
-- 👉 Navigate to the project directory: cd sushi-shop
+- 👉 Navigate to the project directory: cd chatapp
 * 👉 Install dependencies: npm install
 * 👉 Start the development server: npm run dev
 * 👉 Open your browser and visit: http://localhost:3000 to see the chat app in action.
