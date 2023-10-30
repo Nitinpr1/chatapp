@@ -9,7 +9,7 @@ const UserHeader = () => {
     <div className="px-4 py-4 rounded-md bg-opacity-40 border-2 md:w-2/3 w-full sticky top-0 inset-x-4 bg-slate-100">
       {user ? (
         <div className="flex justify-between">
-          <h1 className="text-lg flex gap-3 font-semibold text-indigo-500">
+          <h1 className="text-xl flex gap-3 font-bold text-indigo-500">
             <User /> {user.name}
           </h1>
           <LogOut

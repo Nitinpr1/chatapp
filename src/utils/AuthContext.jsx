@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect, useContext } from "react";
 import { account } from "../appwriteConfig";
+import LoaderCom from "../components/LoaderCom";
 
 import { useNavigate } from "react-router-dom";
 import { ID } from "appwrite";
@@ -80,9 +81,10 @@ export const Authprovider = ({ children }) => {
     handleUserSignUp,
   };
 
+  //react-loader-spinner
   return (
     <AuthContext.Provider value={contextData}>
-      {loading ? <p>Loading...</p> : children}
+      {loading ? <LoaderCom /> : children}
     </AuthContext.Provider>
   );
 };
