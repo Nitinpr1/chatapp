@@ -20,7 +20,7 @@ Installation
 - 👉 Navigate to the project directory: cd chatapp
 * 👉 Install dependencies: npm install
 * 👉 Start the development server: npm run dev
-* 👉 Open your browser and visit: http://localhost:3000 to see the chat app in action.
+* 👉 Open your browser and visit: http://localhost:5173 to see the chat app in action.
 
 
 Screenshots:
