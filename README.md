@@ -3,7 +3,7 @@
 Welcome to the chat app repository!👋  This project is a dynamic react application built using Vite as the build tool. In this project i have used react for frontend , tailwind for styling and appwrite for backend.
 using appwrite it is very easy to maintain the databases and auth, appwrite provides build in auth to manage all the users and groups.
 
-Demo : [Chatapp](https://playful-truffle-4d1948.netlify.app/login)
+Demo : [Chatapp](https://chatapp-5ufopr1y5-nitinpr1.vercel.app)
 
 Features 🚀:
 
@@ -17,10 +17,10 @@ Installation
 
 - 👉 Clone the repository
 - 👉 Create account on appwrite and create your database and then edit the appwriteConfig.js file
-- 👉 Navigate to the project directory: cd sushi-shop
+- 👉 Navigate to the project directory: cd chatapp
 * 👉 Install dependencies: npm install
 * 👉 Start the development server: npm run dev
-* 👉 Open your browser and visit: http://localhost:3000 to see the chat app in action.
+* 👉 Open your browser and visit: http://localhost:5173 to see the chat app in action.
 
 
 Screenshots:
